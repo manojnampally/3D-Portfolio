@@ -1,6 +1,6 @@
 import "boxicons/css/boxicons.min.css";
 import Spline from "@splinetool/react-spline";
-
+import BackgroungImg from "../assets/background.png";
 const Hero = () => {
   return (
     <main className="flex flex-1 flex-col justify-between  h-full">
@@ -54,7 +54,7 @@ const Hero = () => {
       </div>
       <img
         className="absolute -z-20 bg-cover min-w-full min-h-screen top-0 left-0"
-        src="src\assets\background.png"
+        src={BackgroungImg}
         alt="background-img"
       />
     </main>

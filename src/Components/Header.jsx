@@ -9,11 +9,10 @@ const Header = () => {
     >
       <div className="lg:text-5xl font-extrabold text-2xl">MANOJ NAMPALLY</div>
       <div className="flex gap-5">
-        {/* <a href="#"><i class="bx bxl-twitter" /></a> */}
-        <a className="text-2xl hover:text-gray-500 duration-300" href="#">
+        <a className="text-2xl hover:text-gray-500 duration-300" href="https://linkedin.com/in/manojnampally">
           <i class="bx bxl-linkedin" />
         </a>
-        <a className="text-2xl hover:text-gray-500 duration-300" href="#">
+        <a className="text-2xl hover:text-gray-500 duration-300" href="https://github.com/manojnampally">
           <i class="bx bxl-github" />
         </a>
       </div>
